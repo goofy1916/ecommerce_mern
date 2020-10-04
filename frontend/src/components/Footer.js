@@ -1,7 +1,14 @@
 import React from 'react';
+import {Container, Row, Col} from 'react-bootstrap'
 
 const Footer = () => {
-  return <Footer>Footer</Footer>;
+  return <footer><Container>
+    <Row>
+      <Col className ="text-centre-py3">
+        Copyright &copy; Mandakini
+      </Col>
+    </Row>
+    </Container></footer>;
 };
 
 export default Footer;
